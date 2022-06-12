@@ -2,11 +2,14 @@ import React from "react"
 
 const Footer = () => {
   return (
-    <footer>
-      <h4>Hello from footer</h4>
+    <footer className="page-footer">
       <p>Copyright &copy; {new Date().getFullYear()}</p>
       <p>
-        Made by <a href="https://github.com/nelson2411">Nelson Rosales</a>
+        Created by <a href="https://github.com/nelson2411">Nelson Rosales</a>
+      </p>
+      <p>
+        <span>SimplyRecipes</span>. Built with{" "}
+        <a href="https://www.gatsbyjs.com">Gatsby</a>
       </p>
     </footer>
   )
