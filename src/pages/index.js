@@ -4,7 +4,6 @@ import Layout from "../components/Layout"
 import { page, text } from "../examples/home.module.css"
 import { ExampleButton } from "../examples/button"
 import { StaticImage } from "gatsby-plugin-image"
-import FetchData from "../examples/FetchData"
 
 export default function Home() {
   return (
@@ -25,7 +24,6 @@ export default function Home() {
             </div>
           </div>
         </header>
-        <FetchData />
       </main>
     </Layout>
   )
