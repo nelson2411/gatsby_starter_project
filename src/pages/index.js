@@ -4,6 +4,7 @@ import Layout from "../components/Layout"
 import { page, text } from "../examples/home.module.css"
 import { ExampleButton } from "../examples/button"
 import { StaticImage } from "gatsby-plugin-image"
+import AllRecipes from "../components/AllRecipes"
 
 export default function Home() {
   return (
@@ -25,6 +26,7 @@ export default function Home() {
           </div>
         </header>
       </main>
+      <AllRecipes />
     </Layout>
   )
 }
