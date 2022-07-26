@@ -395,6 +395,11 @@ form > *:last-child {
   padding: 0.15rem 1rem;
 }
 
+.featured-recipes {
+  margin-top: 200px;
+  padding: 20px 0;
+}
+
 @media screen and (min-width: 992px) {
   .navbar {
     height: 6rem;
