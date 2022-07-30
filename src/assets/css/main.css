@@ -399,6 +399,10 @@ form > *:last-child {
   margin-top: 200px;
   padding: 20px 0;
 }
+.contact-recipes {
+  margin-top: 50px;
+  padding: 20px 0;
+}
 
 @media screen and (min-width: 992px) {
   .navbar {
