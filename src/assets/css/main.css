@@ -404,6 +404,11 @@ form > *:last-child {
   padding: 20px 0;
 }
 
+.contact-recipes > h5 {
+  text-align: center;
+  max-width: 100%;
+}
+
 @media screen and (min-width: 992px) {
   .navbar {
     height: 6rem;
