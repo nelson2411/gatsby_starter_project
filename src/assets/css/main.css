@@ -1,4 +1,6 @@
 /* @import url("https://fonts.googleapis.com/css?family=Montserrat:400|Inconsolata:400"); */
+/* @import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;600;700&display=swap'); */
+
 *,
 ::after,
 ::before {
@@ -55,7 +57,7 @@
   /* typography */
   --defaultFontSize: 87.5%;
   --headingFont: "Inconsolata", monospace;
-  --bodyFont: "Montserrat", sans-serif;
+  --bodyFont: "Fira Code", sans-serif;
   --smallText: 0.8em;
   --extraSmallText: 0.7em;
   /* rest */
