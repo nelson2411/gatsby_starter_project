@@ -3,6 +3,7 @@ import Layout from "../components/Layout"
 import { StaticImage } from "gatsby-plugin-image"
 import { Link, graphql } from "gatsby"
 import Recipes from "../components/Recipes"
+import SEO from "../components/SEO"
 
 const about = ({
   data: {
@@ -11,6 +12,10 @@ const about = ({
 }) => {
   return (
     <Layout>
+      <SEO
+        title="About"
+        description="This Web App is meant to showcase the flavor and colors of the salvadoran food"
+      />
       <main className="page">
         <section className="about-page">
           <article>

@@ -2,11 +2,16 @@ import React from "react"
 import Layout from "../components/Layout"
 import { Link, graphql } from "gatsby"
 import Recipes from "../components/Recipes"
+import SEO from "../components/SEO"
 
 const Contact = ({ data }) => {
   const recipes = data.allContentfulRecipe.nodes
   return (
     <Layout>
+      <SEO
+        title="Contact"
+        description="Send me a message if you want to know more about salvadoran food or this project"
+      />
       <main className="page">
         <section className="contact-page">
           <article className="contact-info">

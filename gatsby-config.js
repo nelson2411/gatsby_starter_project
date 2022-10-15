@@ -12,6 +12,7 @@ module.exports = {
   siteMetadata: {
     title: "Simply Recipes",
     description: "Nice and clean recipes site",
+    keywords: "gatsbyjs, javascript, react, css, recipes, El Salvador",
     author: "@nelson2411",
     person: {
       name: "Nelson",
