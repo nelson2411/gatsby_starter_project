@@ -5,10 +5,12 @@ import { page, text } from "../examples/home.module.css"
 import { ExampleButton } from "../examples/button"
 import { StaticImage } from "gatsby-plugin-image"
 import AllRecipes from "../components/AllRecipes"
+import SEO from "../components/SEO"
 
 export default function Home() {
   return (
     <Layout>
+      <SEO />
       <main className="page">
         <header className="hero">
           <StaticImage

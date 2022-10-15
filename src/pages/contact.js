@@ -24,7 +24,11 @@ const Contact = ({ data }) => {
             </p>
           </article>
           <article>
-            <form className="form contact-form">
+            <form
+              className="form contact-form"
+              action="https://formspree.io/f/mzbwvlpg"
+              method="POST"
+            >
               <div className="form-row">
                 <label htmlFor="name">Your Name</label>
                 <input type="text" id="name" name="name" />
@@ -37,9 +41,9 @@ const Contact = ({ data }) => {
                 <label htmlFor="message">Your message</label>
                 <textarea id="message" name="message"></textarea>
               </div>
-              <buton type="submit" className="btn block">
+              <button type="submit" className="btn block">
                 Submit
-              </buton>
+              </button>
             </form>
           </article>
         </section>
