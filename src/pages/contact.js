@@ -31,8 +31,7 @@ const Contact = ({ data }) => {
           <article>
             <form
               className="form contact-form"
-              action="https://formspree.io/f/mzbwvlpg"
-              method="POST"
+              
             >
               <div className="form-row">
                 <label htmlFor="name">Your Name</label>
